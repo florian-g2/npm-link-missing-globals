@@ -13,6 +13,6 @@
   "dependencies": {
     "@abraham/reflection": "^0.10.0",
     "library": "file:../library",
-    "tsyringe": "^4.7.0"
+    "tsyringe": "github:florian-g2/tsyringe#compiled"
   }
 }
