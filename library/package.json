@@ -1,0 +1,23 @@
+{
+    "name": "library",
+    "type": "module",
+    "exports": {
+        "./*": "./lib/*"
+    },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "lib/*"
+            ]
+        }
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.3"
+    },
+    "dependencies": {
+        "tsyringe": "^4.7.0"
+    }
+}

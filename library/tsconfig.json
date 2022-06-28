@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNEXT",
+      "outDir": "lib",
+      "module": "ESNEXT",
+      "moduleResolution": "node",
+      "declaration": true,
+      "declarationMap": true,
+      "strict": true,
+      "noImplicitOverride": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "useDefineForClassFields": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["lib/**/*"]
+}
